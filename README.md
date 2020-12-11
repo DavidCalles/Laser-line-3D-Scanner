@@ -45,3 +45,22 @@ All the gerber and drill files of the PCB for circuits for the motor driver and 
 ## Raspberry Pi-end codes
 The codes that must run on the raspberry pi are shared in the "RaspberryPi_Codes" folder, including:
 
+ - Test code for motor.
+ - MQTT communication with image acquisition.
+ - Acquisition of calibration images.
+
+## Computer-end codes
+In the root folder of the repository are the computer-end codes of the project, including.
+
+ - MQTT communication with raspberry-pi.
+ - Camera calibration.
+ - Scanner calibration.
+ - Center calibration.
+ - Point cloud reconstruction.
+ - Features extraction.
+
+## Calibration files
+Some default calibration files are also shared in the root folder of the repository, including:
+
+ - Camera calibration result file.
+ - Scanner calibration result file.
