@@ -90,12 +90,10 @@ PLOT_3D_FINAL = True #Plot final resulting point cloud
 
 # SET Image pairs directory
 # High resolution colored ball better 
-#path = "C:/Users/yodav/Documents/NOVENO_SEMESTRE/TRABAJOGRADO/" + \
-#    "MotorLaserCamera/Nov_25_2020_11_25_59/Originals/" #MISSING = 0
+#path = "Point_Clouds_Image_Sets/Volleyball_Ball/" #MISSING = 0
 
-# High resolution colored plant better 
-path = "C:/Users/yodav/Documents/NOVENO_SEMESTRE/TRABAJOGRADO/" + \
-    "MotorLaserCamera/Nov_24_2020_01_05_26/Originals/" #MISSING = -150
+# High resolution colored plant 
+path = "Point_Clouds_Image_Sets/Chili_Plant/" #MISSING = -150
 
 # GET image filenames to be used (verbose purpose)   
 images = glob.glob(path+'*.png')
